@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    /* border: 2px solid red; */
+    background-color: rgb(190, 175, 175);
+    display: flex;
+    justify-content: center;
+}
+
+nav .icons a{
+    margin: 12px;
+}
+nav .icons a :hover{
+    background-color: aliceblue;
+}
+nav .icon a img{
+    margin-top: 5px;
+}
+header {
+    /* border: 2px solid red; */
+    height: 144px;
+}
+header h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Oswald";
+}
+header h2{
+    text-align: center;
+    /* margin: auto; */
+    font-size: 15px;
+}
+#lady{
+    /* border: 2px solid red; */
+    height: 850px;
+    background-image: url('	https://www.w3schools.com/w3images/jane.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.ladyphoto{
+    left:44px;
+    position: absolute;
+    top: 382px;
+    font-family: "Oswald";
+}
+.ladyphoto h1{
+    color: azure;
+    font-size: 30px;
+}
+.ladyphoto h2{
+    color: azure;
+    font-size: 3rem;
+}
+.ladyphoto button{
+    border: 25px;
+    padding: 9px;
+    cursor: pointer;
+}
+.ladyphoto button:hover{
+    background-color: rgb(238, 87, 87);
+
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    /* border: 2px solid red; */
+    height: auto;
+    display: flex;
+}
+.left_containier{
+    /* border: 2px solid salmon; */
+    /* height: 600px; */
+    flex-basis: 60%;
+    padding: 10px;
+}
+.right_container{
+    /* border: 2px solid salmon; */
+    /* height: 100px; */
+    padding: 10px;
+    flex-basis: 40%;
+    
+}
+/* left side boxes starts */
+.left_sub{
+    /* border: 2px solid black; */
+    margin:41px 5px;
+    background-color: rgb(196, 191, 191);
+    padding: 12px;
+    /* height: 400px; */
+} 
+.left_sub h2{
+    font-size: 17px;
+    font-family: Verdana,sans-serif;
+    text-align: center;
+}
+.left_sub #head{
+    text-align: center;
+}
+.left_sub .photo{
+    height: 509px;
+    background-image: url('	https://www.w3schools.com/w3images/girl_hat.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left_sub .txt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.left_sub #replybtn{
+    cursor: pointer;
+    background: black;
+    color: aliceblue;
+    width: 84px;
+    height: 26px;
+    display: block;
+    margin: 2px auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 8px;
+    margin-bottom: 38px;
+}
+.left_sub #replybtn:hover{
+    background-color: white;
+    color: black;
+}
+.left_sub #writer{
+    display: flex;
+    align-items: center;
+}
+.left_sub #writer img{
+    width: 83px;
+    height: 83px;
+    margin: 9px;
+}
+/* left side boxes ends */
+
+/* right side boxes start*/
+
+.right_sub{
+    margin:41px 5px;
+    /* border: 2px solid black; */
+    background-color: black;
+}
+.right_sub #image{
+    width: 100%;
+    z-index: 0;
+}
+.right_sub .txt{
+    color: rgb(196, 191, 191);;
+    margin: 4px;
+}
+.right_sub #banner_img{
+    width: 50px;
+    height: 50px;
+    margin: 9px;
+}
+.right_sub .banner{
+    display: flex;
+    background-color: rgb(196, 191, 191);;
+}
+.right_sub .banner p{
+    color: black;
+}
+.right_sub #tag{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.right_sub #tag .btn{
+    margin: 4px 3px;
+    cursor: pointer;
+}
+.right_sub #tag .btn:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.right_sub #tag .btn:hover{
+    transition-duration: 2s;
+}
+.right_sub #inspiration_photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.right_sub #inspiration_photo .image{
+    background-image: url('https://www.w3schools.com/w3images/jeans.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    flex: 48%;
+    margin: 4px;
+}
+.right_sub #icons{
+    background-color: rgb(196, 191, 191);;
+    padding: 6px;
+}
+.right_sub #icons a{
+    margin: 10px;
+}
+
+.right_sub #subscribe{
+    background-color: rgb(196, 191, 191);;
+    padding: 2px 10px;
+}
+.right_sub #icons p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right_sub #subscribe input[type="email"] {
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.right_sub #subscribe .btn {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: rgb(238, 87, 87);
+}
+.right_sub #subscribe .btn:hover{
+    background-color: rgb(204, 193, 193);
+}
+
+@media only screen and (max-width: 931px) {
+    .container{
+        flex-direction: column;
+    }
+    .left_sub{
+        margin-bottom: 0px;
+    }
+  }
+  
